@@ -7,13 +7,17 @@
     <groupId>org.example</groupId>
     <artifactId>pluginTest</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+    </properties>
 
     <dependencies>
         <dependency>
             <groupId>com.ucar</groupId>
             <artifactId>rap2-anno</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>2.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
@@ -22,7 +26,7 @@
             <plugin>
                 <groupId>com.ucar</groupId>
                 <artifactId>rap2doc-maven-plugin</artifactId>
-                <version>1.0-SNAPSHOT</version>
+                <version>2.0-SNAPSHOT</version>
                 <executions>
                     <execution>
                         <goals>
@@ -39,7 +43,7 @@
                         <!-- ownerId决定仓库的拥有者 默认为1 系统管理员 (非必填) -->
                         <ownerId>1</ownerId>
                         <!-- 仓库名称 同一个拥有者下的仓库名重复,则该仓库将会被覆盖 (必填) -->
-                        <repositoryName>tt</repositoryName>
+                        <repositoryName>tt222</repositoryName>
                         <!-- 仓库描述 (非必填) -->
                         <repositoryDesc>tt</repositoryDesc>
                         <!-- 仓库下的模块名城 (必填) -->

@@ -16,5 +16,5 @@ public class Item {
     private double testdouble;
     private char testchar;
     private boolean testboolean;
-    private int[] testarray;
+    private TestParam[] testParamarray;
 }

@@ -16,6 +16,7 @@ public class TestResult extends TestParam {
 
     @ApiProperty(value = "resultStr", example = "resurrrrr")
     private String resultStr;
+
     private byte aByte;
 
     private List<Item> items;

@@ -1,4 +1,4 @@
 # Project exclude paths
 /target/
 .idea/
-java7test.iml
+pluginTest.iml.iml
